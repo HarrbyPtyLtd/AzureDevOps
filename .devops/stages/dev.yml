@@ -1,0 +1,5 @@
+- stage: Build
+  displayName: "Build Stage"
+  jobs:
+  - template: ../jobs/dotnet.yml
+  - template: ../jobs/build.yml

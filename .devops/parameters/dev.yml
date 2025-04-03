@@ -1,0 +1,34 @@
+- name: cr
+  displayName: Change Request
+  type: string
+  default: 'CH-123456XXX'
+
+- name: sql
+  displayName: Include SQL Server
+  type: boolean
+  default: false
+
+- name: web
+  displayName: Include Web Server
+  type: boolean
+  default: false
+
+- name: api
+  displayName: Include API Server
+  type: boolean
+  default: false
+
+- name: ff
+  displayName: Include Fontend Server
+  type: boolean
+  default: false
+
+- name: environment
+  displayName: Environment
+  type: string
+  default: 'Development'
+  values:
+  - Development
+  - Test
+  - Stating
+  - Production

@@ -1,0 +1,11 @@
+parameters:
+  -template: ../parameters/dev.yml
+
+variables:
+  - template: ../variables/dev.yml
+
+trigger:
+  -template: ../triggers/dev.yml
+  
+stages:
+  -template: ../stages/dev.yml

@@ -1,0 +1,17 @@
+  branches:
+    include:
+    - main
+    - releases/*
+    exclude:
+    - dev
+  paths:
+    include:
+    - '*'
+    exclude:
+    - .devops/*
+    - docs/*
+  tags:
+    include:
+    - v1.*
+    exclude:
+    - v1.0

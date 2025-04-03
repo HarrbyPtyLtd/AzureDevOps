@@ -1,0 +1,5 @@
+- name: varOne
+  value: initialValue
+
+- name: varTwo
+  value: initialValue 
