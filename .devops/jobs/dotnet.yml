@@ -1,0 +1,13 @@
+parameters:
+  dotnetVersion: '9.0.x' # Default .NET version to install
+
+steps:
+  - task: UseDotNet@2
+    displayName: 'Install .NET SDK'
+    inputs:
+      packageType: 'sdk'
+      version: ${{ parameters.dotnetVersion }}
+
+  - script: |
+      dotnet --version
+    displayName: 'Verify .NET SDK Installation'
